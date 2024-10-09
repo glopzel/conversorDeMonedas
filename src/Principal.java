@@ -59,7 +59,6 @@ public class Principal {
             } else if (eleccion == 7) {
                 System.out.println("Cerrando la aplicación");
                 condicionLoop = Estado.DETENER;
-                break;
             } else {
                 // cuando el numero ingresado esta fuera del rango se retorna este mensaje
                 System.out.println("Ingrese un valor entre 1 y 7");
