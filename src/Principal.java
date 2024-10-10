@@ -52,7 +52,7 @@ public class Principal {
 
                 ConversionMoneda cambioDeMonedas = new ConversionMoneda(eleccion, valorParaConvertir);
 
-                // llamo el método que hace la conversion
+                // ejecuto la conversion
                 cambioDeMonedas.convertidorDeMoneda();
                 // devuelvo el mensaje final
                 System.out.println(cambioDeMonedas.mensajeResultadoConversion());
