@@ -76,6 +76,6 @@ public class ConversionMoneda {
 
     public String mensajeResultadoConversion() {
         return "El valor " + amount + " [" + base + "] " +
-               "corresponde al valor final de =>>> " + resultadoDeConversion + " [" + target + "]";
+               "corresponde al valor final de =>>> " + String.format("%.4f", resultadoDeConversion) + " [" + target + "]";
     }
 }
